@@ -1,6 +1,14 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: xuke10@lenovo.com
+ * @Date: 2021-11-15 11:15:50
+ * @LastEditors: xuke10@lenovo.com
+ * @LastEditTime: 2021-11-15 17:25:58
+-->
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
     <router-view/>
   </div>
 </template>
@@ -12,12 +20,15 @@ export default {
 </script>
 
 <style>
+html {
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
 }
 </style>

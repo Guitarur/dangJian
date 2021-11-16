@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: xuke10@lenovo.com
+ * @Date: 2021-11-15 11:15:50
+ * @LastEditors: xuke10@lenovo.com
+ * @LastEditTime: 2021-11-15 17:36:12
+ */
 'use strict'
 const path = require('path')
 const utils = require('./utils')
@@ -64,6 +72,10 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
+      },
+      {
+        test: / \.scss$ / ,
+        loaders: [ 'style' , 'css' , 'sass' ]
       }
     ]
   },
