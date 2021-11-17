@@ -4,7 +4,7 @@
  * @Author: xuke10@lenovo.com
  * @Date: 2021-11-16 14:08:03
  * @LastEditors: xuke10@lenovo.com
- * @LastEditTime: 2021-11-16 14:41:07
+ * @LastEditTime: 2021-11-17 10:00:47
 -->
 <template>
   <div>
@@ -43,7 +43,7 @@ export default {
     .start_btn {
       position: absolute;
       width: 211px;
-      top: 540px;
+      top: 590px;
       left: 0;
       right: 0;
       margin: auto;

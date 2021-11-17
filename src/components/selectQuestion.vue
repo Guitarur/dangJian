@@ -4,7 +4,7 @@
  * @Author: xuke10@lenovo.com
  * @Date: 2021-11-15 14:40:04
  * @LastEditors: xuke10@lenovo.com
- * @LastEditTime: 2021-11-16 15:15:08
+ * @LastEditTime: 2021-11-17 15:56:13
 -->
 <template>
   <div ref='type_box'>
@@ -13,7 +13,7 @@
     <img class="type_btn btn_3" :style="'opacity:'+ opacity" src="../assets/type (3).png" alt="">
     <img class="type_btn btn_4" :style="'opacity:'+ opacity" src="../assets/type (4).png" alt="">
     <img class="type_btn btn_5" :style="'opacity:'+ opacity" src="../assets/type (5).png" alt="">
-    <button v-for="(item,index) in buttonList" :key="index" @click="chooseQuestionType(index)">{{item.text}}</button>
+    <!-- <button v-for="(item,index) in buttonList" :key="index" @click="chooseQuestionType(index)">{{item.text}}</button> -->
   </div>
 </template>
 <script>
@@ -37,11 +37,21 @@ export default {
         },{
             text: '33333333'
         }],[{
-            text: '一一一一一'
+            text: '1.在俄国十月革命影响下，率先在中国举起马克思主义旗帜的是______。',
+            options: ['选项A','选项B','选项C','选项D'],
+            answer: 0
         },{
-            text: '二二二二二二'
+            text: '2二二二二二二二二二二二二二二二二二二二二二二二二二二二二二二',
+            options: ['选项A','选项B','选项C','选项D'],
+            answer: 1
         },{
-            text: '三三三三三三'
+            text: '3三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三',
+            options: ['选项A','选项B','选项C','选项D'],
+            answer: 2
+        },{
+            text: '4四四四四四四四四四四四四四四四四四四四四四四四四四四四四四四',
+            options: ['选项A','选项B','选项C','选项D'],
+            answer: 3
         }],[{
             text: 'oneoneoneoneone'
         },{
