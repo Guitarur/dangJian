@@ -4,7 +4,7 @@
  * @Author: xuke10@lenovo.com
  * @Date: 2021-11-15 14:42:34
  * @LastEditors: xuke10@lenovo.com
- * @LastEditTime: 2021-11-17 16:40:11
+ * @LastEditTime: 2021-11-17 18:21:58
 -->
 <template>
   <div class="questions_page">
@@ -124,10 +124,10 @@ export default {
   }
   .questions_body {
     position: absolute;
-    width: 840px;
+    width: 750px;
     left: 0;
     right: 0;
-    top: 400px;
+    top: 336px;
     margin: auto;
     font-size: 25px;
     letter-spacing: 2px;
